@@ -1,24 +1,13 @@
-# This file was generated from a template. Edit it to match your keyboard.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
-# for instructions.
-
 file_format: "1"
 id: dactyl
-name: dactyl
+name: Dactyl
 type: shield
-
-# Set this to a URL that documents the keyboard.
-url: https://example.com
-
-# Add any features your keyboard supports here.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+url: https://github.com/denilr/-zmk-config-dactyl_3x5-6
+requires: [nice_nano]
+exposes:
 features:
   - keys
-  - studio  # Remove this line if your keyboard will not support ZMK Studio
-
-requires:
-  - pro_micro
-
+  - studio 
 siblings:
   - dactyl_left
   - dactyl_right
